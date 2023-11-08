@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#navbar {
+	color: white;
+}
+
+#home-page {
+	#back-img {
+		background-image: linear-gradient(to right, rgba(9, 11, 12, 0.6), rgba(7, 9, 12, 0.6)), url('Back-img.jpg');
+		background-size: cover;
+		height: 480px;
+		background-position: center;
+	}
+
+	#home-heading1 {
+		font-size: 40px;
+		font-weight: 600;
+		color: white;
+	}
+
+	#home-heading2 {
+		color: white;
+		font-weight: 500;
+	}
+
+	.homepage-box1,
+	.homepage-box2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	ul {
+		color: white;
+	}
+
+	#icons {
+		color: white;
+		font-size: 25px;
+	}
+
+	#Contacts {
+		display: flex;
+		justify-content: space-around;
+		font-size: large;
+		font-weight: 600;
+	}
+
+	#icon-flex {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	ul li {
+		text-decoration: none;
+	}
+}
+//Home End
+
+// Logo page
+#logo-page{
+	background-color: black;
+	color: white;
+}
+#logo-contacts{
+
+	
+	font-weight: 600;
+	font-size: 20px;
+}
+#logo-icons i{
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+
+@media(min-width:600px){
+	#logo-page{
+		display: none; 
+	}
+}
+
+// Page 1 Media Query
+@media(max-width:576px){
+	#logo-hide{
+		display: none;
+	}
+	#main-headings{
+		text-align: center;
+		margin-top: 320px;
+	}
+	#input2{
+		margin-left: 30px;
+	}
+}
+
+// Form Start
+#form{
+	#heading1{
+		font-size: 25px;
+		font-weight: 520;
+	}
+	#icon{
+		font-size: 22px;
+		color: #198754;
+	}
+	i:hover{
+		border: 1px solid black;
+	}
+	.line{
+		display: flex;
+	}
+	span{
+		font-size: large;
+		font-weight: 610;
+	}
+	p{
+		font-weight: 500;
+		margin-left: 10px;
+	}
+	input{
+		width: 48%;
+		background-color: #f1f1f1;
+	}
+	.input{
+		margin-top: 20px;
+	}
+	.name,.name2{
+		display: flex;
+		justify-content: space-between;
+	}
+	textarea{
+		width: 100%;
+		margin-top: 30px;
+		background-color: #f1f1f1;
+	}
+	#btn{
+		width: 100%;
+		margin-top: 20px;
+		background-color: #198754;
+		color: white;
+		font-weight: bold;
+		height: 40px;
+	}
+}
+// Form End
+
+// Bank details
+
+#bank{
+	#heading{
+		font-size: 30px;
+		font-weight: 510;
+	}
+	p{
+		font-size: large;
+	}
+	span{
+		font-size: larger;
+		font-weight: 510;
+	}
+}
+// Bank details
+
+
+// Footer 1 Start	
+#footer1 {
+	background-color: #212529;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foot-img {
+	width: 100px;
+	height: 100px;
+}
+
+.foot-flex {
+	display: flex;
+}
+
+.foot-flex p {
+	margin-left: 10px;
+}
+
+#footer1 a {
+	font-size: larger;
+	color: white;
+}
+
+#footer1 i:hover {
+	border: 1px solid white;
+}
+
+//Footer 2 Start
+
+#footer2 {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: white;
+
+	.name1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: 10px;
+	}
+	.name2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	font-weight: 600;
+	margin-top: -10px;
+	}
+	span{
+		color: #08c6f5;
+		border-bottom: 2px solid rgb(121, 243, 121);
+	}
+	#my-img{
+		width: 120px;
+	}
+	#myimaage{
+		display: flex;
+		justify-content: space-around;
+	}
+	#img-center{
+		display: flex;
+		justify-content: center;
+	}
+}
